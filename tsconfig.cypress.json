@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "types": [
+      "cypress"
+    ]
+  },
+  "include": [
+    "cypress/support/**/*.ts",
+    "**/*.cy-spec.ts"
+  ]
+}
