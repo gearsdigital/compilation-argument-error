@@ -2,13 +2,14 @@
 
 https://github.com/jscutlery/devkit/issues/170
 
-Steps to reproduce:
+## Steps to reproduce
 
 1. Clone this repo
 2. Run `npm install`
 3. Run `ng run compilation-argument-error:ct`
 
-Executed commands
+## Executed commands
+
 ```
 ng new
   -> project name: compilation-argument-error
